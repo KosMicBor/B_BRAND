@@ -388,10 +388,14 @@ body {
     opacity: 0.8;
 }
 .Item_button_hover {
+    display: flex;
     margin: auto;
     background-color: transparent;
     border: 3px solid white;
     color: white;
     text-decoration: none;
     padding: 10px 15px;
+}
+.cart_img {
+    padding-right: 8px;
 }
