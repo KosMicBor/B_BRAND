@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.css"
+        integrity="sha512-f73UKwzP1Oia45eqHpHwzJtFLpvULbhVpEJfaWczo/ZCV5NWSnK4vLDnjTaMps28ocZ05RbI83k2RlQH92zy7A=="
+        crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container containerHeader">
+            <img src="img/b_letter_header.png" alt="logo" class="bLetter">
+            <p class="logo">
+                bran<span class="logo_d">D</span>
+            </p>
+
+            <form class="header_form">
+                <button type="button" class="browse_btn">
+                    Browse<i class="fa fa-caret-down" aria-hidden="true"></i>
+                </button>
+                <div class="search_area">
+                    <input type="text" placeholder="Search for Item..." class="inputSearch">
+                    <button type="button" class="search_button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </div>
+            </form>
+            <div class="right_part">
+                <a href="cart.html" class="cart_link"><img src="img/basket_header.svg" alt="basket_img"></a>
+                <button type="button" class="account_btn">
+                    My Account<i class="fa fa-caret-down" aria-hidden="true"></i>
+                </button>
+            </div>
+
+        </div>
+
+    </header>
+    <nav class="main_menu">
+        <a href="index.html" class="main_menu_item">Home</a>
+        <a href="#" class="main_menu_item">Man</a>
+        <a href="#" class="main_menu_item">Women</a>
+        <a href="#" class="main_menu_item">Kids</a>
+        <a href="#" class="main_menu_item">Accoseriese</a>
+        <a href="#" class="main_menu_item">Featured</a>
+        <a href="#" class="main_menu_item">Hot Deals</a>
+    </nav>
+
+    <main>
+        <section class="new_arrivals">
+            <div class="container new_arrivals_container">
+                <h3 class="arrivals_text">New Arrivals</h3>
+                <p class="arrivals_path">Home / Men / <span class="arrivals_text_span">New Arrivals</span></p>
+            </div>
+        </section>
+        <div class="container">
+            <form class="shopping_cart">
+                <div class="grid_heading">
+                    <div class="item_1 item_text_left">Product Details</div>
+                    <div class="item_2 item_header_style">unite Price</div>
+                    <div class="item_3 item_header_style">Quantity</div>
+                    <div class="item_4 item_header_style">shipping</div>
+                    <div class="item_5 item_header_style">Subtotal</div>
+                    <div class="item_6 item_header_style">ACTION</div>
+                </div>
+                <section class="cart_product__grid_container">
+                    <div class="item_1 item_img_and_features">
+                        <img src="img/cart_product_one.png" alt="product picture">
+                        <div class="cart_product_text">
+                            <h4 class="cart_product_name">Mango People T-shirt</h4>
+                            <p class="cart_product_features"><span class="cart_product_features_span">Color:</span>Red
+                            </p>
+                            <p class="cart_product_features"><span class="cart_product_features_span">Size:</span>Xll
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item_2 item_cont_center">$150</div>
+                    <div class="item_3 item_cont_center"><input type="text" class="cart_q_input" value="1"></div>
+                    <div class="item_4 item_cont_center">free</div>
+                    <div class="item_5 item_cont_center">$300</div>
+                    <div class="item_6 item_cont_center">
+                        <button class="cart_delete_button"><i class="fa fa-times-circle" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </section>
+                <section class="cart_product__grid_container">
+                    <div class="item_1 item_img_and_features">
+                        <img src="img/cart_product_two.png" alt="product picture">
+                        <div class="cart_product_text">
+                            <h4 class="cart_product_name">Mango People T-shirt</h4>
+                            <p class="cart_product_features"><span class="cart_product_features_span">Color:</span>Red
+                            </p>
+                            <p class="cart_product_features"><span class="cart_product_features_span">Size:</span>Xll
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item_2 item_cont_center">$150</div>
+                    <div class="item_3 item_cont_center"><input type="text" class="cart_q_input" value="1"></div>
+                    <div class="item_4 item_cont_center">free</div>
+                    <div class="item_5 item_cont_center">$300</div>
+                    <div class="item_6 item_cont_center">
+                        <button class="cart_delete_button">
+                            <i class="fa fa-times-circle" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </section>
+                <section class="cart_product__grid_container">
+                    <div class="item_1 item_img_and_features">
+                        <img src="img/cart_product_three.png" alt="product picture">
+                        <div class="cart_product_text">
+                            <h4 class="cart_product_name">Mango People T-shirt</h4>
+                            <p class="cart_product_features"><span class="cart_product_features_span">Color:</span>Red
+                            </p>
+                            <p class="cart_product_features"><span class="cart_product_features_span">Size:</span>Xll
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item_2 item_cont_center">$150</div>
+                    <div class="item_3 item_cont_center"><input type="text" class="cart_q_input" value="1"></div>
+                    <div class="item_4 item_cont_center">free</div>
+                    <div class="item_5 item_cont_center">$300</div>
+                    <div class="item_6 item_cont_center">
+                        <button class="cart_delete_button">
+                            <i class="fa fa-times-circle" aria-hidden="true"></i>
+                        </button>
+                    </div>
+            </form>
+
+        </div>
+        <div class="container cart_direction">
+            <button class="cart_direction_button">cLEAR SHOPPING CART</button>
+            <button class="cart_direction_button">cONTINUE sHOPPING</button>
+        </div>
+        <div class="container address_and_submit_container">
+            <form class="address_and_submit">
+                <section class="address_and_submit_add">
+                    <h3 class="address_heading add_items_margin">
+                        Shipping Adress
+                    </h3>
+                    <input type="text" class="address_input add_items_margin" placeholder="Bangladesh">
+                    <input type="text" class="address_input add_items_margin" placeholder="State">
+                    <input type="text" class="address_input add_items_margin" placeholder="Postcode / Zip">
+                    <button type="submit" class="address_coupon_button add_items_margin">get a quote</button>
+                </section>
+                <section class="address_and_submit_coupon">
+                    <h3 class="address_heading add_items_margin">
+                        coupon discount
+                    </h3>
+                    <p class="coupon_text add_items_margin">Enter your coupon code if you have one</p>
+                    <input type="text" class="address_input add_items_margin" placeholder="State">
+                    <button type="submit" class="address_coupon_button add_items_margin">Apply coupon</button>
+                </section>
+                <section class="address_and_submit_proceed">
+                    <div class="total_price_items_position">
+                        <p class="total_price_text_small">Sub total $900</p>
+                        <p class="total_price_text_large">GRAND TOTAL <span
+                                class="total_price_text_large_span">$900</span>
+                        </p>
+                        <button type="submit" class="total_price_button">proceed to checkout</button>
+                    </div>
+                </section>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="container footer_container">
+            <div class="footer_left_block">
+                <div class="footer_logo">
+                    <img src="img/b_letter_header.png" alt="logo" class="bLetter">
+                    <p class="logo">
+                        bran<span class="logo_d">D</span>
+                    </p>
+                </div>
+                <p class="footer_left_block_text">Objectively transition extensive data rather than cross functional
+                    solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits.
+                    Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.
+                </p>
+                <p class="footer_left_block_text">Efficiently plagiarize 24/365 action items and focused
+                    infomediaries.
+                    Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
+                </p>
+                <p class="footer_left_block_text">
+                    Objectively strategize seamless relationships via resource sucking testing procedures.
+                    Proactively
+                    cultivate next-generation results for value-added methodologies. Dynamically plagiarize unique
+                    methodologies after performance based methodologies.
+                </p>
+                <p class="footer_left_block_text">Monotonectally empower stand-alone mindshare
+                    rather than ubiquitous opportunities. Dynamically orchestrate resource sucking scenarios after
+                    alternative synergy.
+                </p>
+                <p class="footer_left_block_text">Compellingly envisioneer corporate methods of empowerment before
+                    standards compliant technologies.
+                    Objectively facilitate progressive.
+                </p>
+            </div>
+            <div class="footer_right_block">
+                <ul class="footer_right_block_order">
+                    <li class="footer_right_block_order_list">COMPANY</li>
+                    <li class="footer_right_block_order_list"><a href="index.html">Home</a></li>
+                    <li class="footer_right_block_order_list">Shop</li>
+                    <li class="footer_right_block_order_list">About</li>
+                    <li class="footer_right_block_order_list">How It Works</li>
+                    <li class="footer_right_block_order_list">Contact</li>
+                </ul>
+                <ul class="footer_right_block_order">
+                    <li class="footer_right_block_order_list">INFORMATION</li>
+                    <li class="footer_right_block_order_list">Tearms & Condition</li>
+                    <li class="footer_right_block_order_list">Privacy Policy</li>
+                    <li class="footer_right_block_order_list">How to Buy</li>
+                    <li class="footer_right_block_order_list">How to Sell</li>
+                    <li class="footer_right_block_order_list">Promotion</li>
+                </ul>
+                <ul class="footer_right_block_order">
+                    <li class="footer_right_block_order_list">SHOP CATEGORY</li>
+                    <li class="footer_right_block_order_list">Men</li>
+                    <li class="footer_right_block_order_list">Women</li>
+                    <li class="footer_right_block_order_list">Child</li>
+                    <li class="footer_right_block_order_list">Apparel</li>
+                    <li class="footer_right_block_order_list">Browse All</li>
+                </ul>
+
+            </div>
+
+        </div>
+        <div class="footer_contacts">
+            <div class="container footer_contacts_container">
+                <p class="footer_copywrites">© 2017 Brand All Rights Reserved.</p>
+                <div class="footer_social_icons">
+                    <div class="social_icons"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                    <div class="social_icons"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                    <div class="social_icons"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+                    <div class="social_icons"><i class="fa fa-pinterest-p" aria-hidden="true"></i></div>
+                    <div class="social_icons"><i class="fa fa-google-plus" aria-hidden="true"></i></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
