@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.css"
+        integrity="sha512-f73UKwzP1Oia45eqHpHwzJtFLpvULbhVpEJfaWczo/ZCV5NWSnK4vLDnjTaMps28ocZ05RbI83k2RlQH92zy7A=="
+        crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container containerHeader">
+            <img src="img/b_letter_header.png" alt="logo" class="bLetter">
+            <p class="logo">
+                bran<span class="logo_d">D</span>
+            </p>
+
+            <form class="header_form">
+                <button type="button" class="browse_btn">
+                    Browse<i class="fa fa-caret-down" aria-hidden="true"></i>
+                </button>
+                <div class="search_area">
+                    <input type="text" placeholder="Search for Item..." class="inputSearch">
+                    <button type="button" class="search_button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </div>
+            </form>
+            <div class="right_part">
+                <a href="cart.html" class="cart_link"><img src="img/basket_header.svg" alt="basket_img"></a>
+                <button type="button" class="account_btn">
+                    My Account<i class="fa fa-caret-down" aria-hidden="true"></i>
+                </button>
+            </div>
+
+        </div>
+
+    </header>
+    <nav class="main_menu">
+        <a href="index.html" class="main_menu_item">Home</a>
+        <a href="#" class="main_menu_item">Man</a>
+        <a href="#" class="main_menu_item">Women</a>
+        <a href="#" class="main_menu_item">Kids</a>
+        <a href="#" class="main_menu_item">Accoseriese</a>
+        <a href="#" class="main_menu_item">Featured</a>
+        <a href="#" class="main_menu_item">Hot Deals</a>
+    </nav>
+
+    <main>
+        <section class="new_arrivals">
+            <div class="container new_arrivals_container">
+                <h3 class="arrivals_text">New Arrivals</h3>
+                <p class="arrivals_path">Home / Men / <span class="arrivals_text_span">New Arrivals</span></p>
+            </div>
+        </section>
+        <section class="single_page_slider">
+
+            <div class="single_page_slider_slider_left_button"><i class="fa fa-angle-left" aria-hidden="true"></i>
+            </div>
+            <div class="single_page_slider_right_button"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+
+        </section>
+        <div class="container buying_form_container">
+            <form class="buying_form">
+                <div class="buying_form_border">
+                    <h3 class="buying_form_category_name">WOMEN COLLECTION
+                    </h3>
+                    <div class="buying_form_innerBorder"></div>
+                </div>
+                <h3 class="buying_form_productName">
+                    Moschino Cheap And Chic
+                </h3>
+                <p class="buying_form_product_description_text">
+                    Compellingly actualize fully researched processes before proactive outsourcing. Progressively
+                    syndicate collaborative architectures before cutting-edge services. Completely visualize parallel
+                    core competencies rather than exceptional portals.
+                </p>
+                <div class="buying_form_product_features">
+                    <div class="buying_form_product_material">MATERIAL: <span class="buying_form_product_features_span">
+                            COTTON</span></div>
+                    <div class="buying_form_product_designer">DESIGNER:<span class="buying_form_product_features_span">
+                            BINBURHAN</span></div>
+                </div>
+                <p class="buying_form_product_price">$561</p>
+                <hr class="buying_form_hr">
+                <div class="choose_other_features_blocks">
+                    <div class="choose_other_features_blocks_block select_color_relative">
+                        <p class="choose_other_features_blocks_block_text">
+                            Choose Color
+                        </p>
+                        <div class="choose_other_features_blocks_block_color_square"></div>
+                        <select class="choose_other_features_blocks_select_css_1">
+                            <option value="value1" selected disabled>Color</option>
+                            <option value="value2">Red</option>
+                            <option value="value3">Green</option>
+                            <option value="value4">Yellow</option>
+                            <option value="value5">Blue</option>
+                            <option value="value6">Black</option>
+                        </select>
+                    </div>
+                    <div class="choose_other_features_blocks_block">
+                        <p class="choose_other_features_blocks_block_text">
+                            Choose Size
+                        </p>
+                        <select class="choose_other_features_blocks_select_css_2">
+                            <option value="value1" selected disabled>Size</option>
+                            <option value="value2">S</option>
+                            <option value="value3">M</option>
+                            <option value="value4">L</option>
+                            <option value="value5">XL</option>
+                        </select>
+                    </div>
+                    <div class="choose_other_features_blocks_block">
+                        <p class="choose_other_features_blocks_block_text">
+                            Quantity
+                        </p>
+                        <input type="text" class="choose_other_features_blocks_block_input" placeholder="Number">
+                    </div>
+                    <button type="submit" class="choose_other_features_blocks_button">
+                        <img src="img/single_page_cart_img.png" alt="cart" class="cart_img">Add to Cart
+                    </button>
+                </div>
+
+            </form>
+        </div>
+
+        <section class="container featured_items_container">
+            <h3 class="featured__items_heading YMAL_heading">you may like also</h3>
+            <div class="featured_items">
+                <div class="featured__items_item">
+                    <div class="featured_items_img_block">
+                        <img src="img/single_cart_YMAL_img_blaze.jpg" alt="photo" class="item_img">
+                        <div class="featured_items_img_block_hover">
+
+                            <a href="#" class="Item_button_hover">
+                                <img src="img/cart_to_cart_img.png" alt="cart" class="cart_img">
+                                Add to Cart</a>
+                        </div>
+                    </div>
+                    <h4 class="item_label">BLAZE LEGGINGS</h4>
+                    <p class="item_price">$52.00</p>
+                </div>
+                <div class="featured__items_item">
+                    <div class="featured_items_img_block">
+                        <img src="img/single_cart_YMAL_img_alexa.jpg" alt="photo" class="item_img">
+                        <div class="featured_items_img_block_hover">
+                            <a href="#" class="Item_button_hover"><img src="img/cart_to_cart_img.png" alt="cart"
+                                    class="cart_img">Add to Cart</a>
+                        </div>
+                    </div>
+                    <h4 class="item_label">ALEXA SWEATER</h4>
+                    <p class="item_price">$52.00</p>
+                </div>
+                <div class="featured__items_item">
+                    <div class="featured_items_img_block">
+                        <img src="img/single_cart_YMAL_img_agnes.jpg" alt="photo" class="item_img">
+                        <div class="featured_items_img_block_hover">
+                            <a href="#" class="Item_button_hover"><img src="img/cart_to_cart_img.png" alt="cart"
+                                    class="cart_img">Add to Cart</a>
+                        </div>
+                    </div>
+                    <h4 class="item_label">AGNES TOP</h4>
+                    <p class="item_price">$52.00</p>
+                </div>
+                <div class="featured__items_item">
+                    <div class="featured_items_img_block">
+                        <img src="img/single_cart_YMAL_img_silva.jpg" alt="photo" class="item_img">
+                        <div class="featured_items_img_block_hover">
+                            <a href="#" class="Item_button_hover"><img src="img/cart_to_cart_img.png" alt="cart"
+                                    class="cart_img">Add to Cart</a>
+                        </div>
+                    </div>
+                    <h4 class="item_label">SYLVA SWEATER</h4>
+                    <p class="item_price">$52.00</p>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="subscribing_block">
+            <div class="container container_subscribe">
+                <div class="subscribing_block_left">
+                    <p class="subscribing_block_left_quote_1">
+                        <span class="qoute_img"><img src="img/subscribe_qoute_picture.png" alt="quote_img">
+                        </span>
+                        “Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                        a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”
+                    </p>
+                    <p class="subscribing_block_left_quote_2">
+                        Bin Burhan
+
+                    </p>
+                    <p class="subscribing_block_left_quote_3">
+                        Dhaka, Bd
+                    </p>
+                    <div class="subscribing_block_left_switch">
+                        <div class="subscribing_block_left_switch_element"></div>
+                        <div class="subscribing_block_left_switch_element"></div>
+                        <div class="subscribing_block_left_switch_element"></div>
+                    </div>
+                </div>
+                <div class="divider">
+                </div>
+                <div class="subscribing_block_right">
+                    <h3 class="subscribing_block_right_heading">Subscribe
+                    </h3>
+                    <p class="subscribing_block_right_text">FOR OUR NEWLETTER AND PROMOTION</p>
+                    <form>
+                        <input type="text" class="subscribing_block_right_input" placeholder="Enter Your Email"><button
+                            class="subscribing_block_right_button" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container footer_container">
+            <div class="footer_left_block">
+                <div class="footer_logo">
+                    <img src="img/b_letter_header.png" alt="logo" class="bLetter">
+                    <p class="logo">
+                        bran<span class="logo_d">D</span>
+                    </p>
+                </div>
+                <p class="footer_left_block_text">Objectively transition extensive data rather than cross functional
+                    solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits.
+                    Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.
+                </p>
+                <p class="footer_left_block_text">Efficiently plagiarize 24/365 action items and focused
+                    infomediaries.
+                    Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
+                </p>
+                <p class="footer_left_block_text">
+                    Objectively strategize seamless relationships via resource sucking testing procedures.
+                    Proactively
+                    cultivate next-generation results for value-added methodologies. Dynamically plagiarize unique
+                    methodologies after performance based methodologies.
+                </p>
+                <p class="footer_left_block_text">Monotonectally empower stand-alone mindshare
+                    rather than ubiquitous opportunities. Dynamically orchestrate resource sucking scenarios after
+                    alternative synergy.
+                </p>
+                <p class="footer_left_block_text">Compellingly envisioneer corporate methods of empowerment before
+                    standards compliant technologies.
+                    Objectively facilitate progressive.
+                </p>
+            </div>
+            <div class="footer_right_block">
+                <ul class="footer_right_block_order">
+                    <li class="footer_right_block_order_list">COMPANY</li>
+                    <li class="footer_right_block_order_list"><a href="index.html">Home</a></li>
+                    <li class="footer_right_block_order_list">Shop</li>
+                    <li class="footer_right_block_order_list">About</li>
+                    <li class="footer_right_block_order_list">How It Works</li>
+                    <li class="footer_right_block_order_list">Contact</li>
+                </ul>
+                <ul class="footer_right_block_order">
+                    <li class="footer_right_block_order_list">INFORMATION</li>
+                    <li class="footer_right_block_order_list">Tearms & Condition</li>
+                    <li class="footer_right_block_order_list">Privacy Policy</li>
+                    <li class="footer_right_block_order_list">How to Buy</li>
+                    <li class="footer_right_block_order_list">How to Sell</li>
+                    <li class="footer_right_block_order_list">Promotion</li>
+                </ul>
+                <ul class="footer_right_block_order">
+                    <li class="footer_right_block_order_list">SHOP CATEGORY</li>
+                    <li class="footer_right_block_order_list">Men</li>
+                    <li class="footer_right_block_order_list">Women</li>
+                    <li class="footer_right_block_order_list">Child</li>
+                    <li class="footer_right_block_order_list">Apparel</li>
+                    <li class="footer_right_block_order_list">Browse All</li>
+                </ul>
+
+            </div>
+
+        </div>
+        <div class="footer_contacts">
+            <div class="container footer_contacts_container">
+                <p class="footer_copywrites">© 2017 Brand All Rights Reserved.</p>
+                <div class="footer_social_icons">
+                    <div class="social_icons"><i class="fab fa-facebook" aria-hidden="true"></i></div>
+                    <div class="social_icons"><i class="fab fa-twitter" aria-hidden="true"></i></div>
+                    <div class="social_icons"><i class="fab fa-linkedin" aria-hidden="true"></i></div>
+                    <div class="social_icons"><i class="fab fa-pinterest-p" aria-hidden="true"></i></div>
+                    <div class="social_icons"><i class="fab fa-google-plus" aria-hidden="true"></i></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
