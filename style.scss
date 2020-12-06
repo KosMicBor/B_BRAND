@@ -247,15 +247,10 @@ body {
     background-image: url(img/slider_man_img.png);
     background-repeat: no-repeat;
     background-position-x: right;
-    animation: thankYou 4s 500ms infinite reverse;
 
     .slider_slogan {
         border-left: 12px solid $font_color_uniq;
         padding-left: 12px;
-        animation-name: lightSpeedIn;
-        animation-timing-function: ease-out;
-        animation-duration: 1s;
-        animation-fill-mode: both;
         @media (max-width: 425px) {
             background-color: #e8e8e8;
             width: 55%;
@@ -288,50 +283,6 @@ body {
         }
     }
 }
-
-// .lightSpeedIn {
-// }
-
-@keyframes lightSpeedIn {
-    0% {
-        -webkit-transform: translate3d(100%, 0, 0) skewX(-30deg);
-        transform: translate3d(100%, 0, 0) skewX(-30deg);
-        opacity: 0;
-    }
-    60% {
-        -webkit-transform: skewX(20deg);
-        transform: skewX(20deg);
-        opacity: 1;
-    }
-    80% {
-        -webkit-transform: skewX(-5deg);
-        transform: skewX(-5deg);
-        opacity: 1;
-    }
-    100% {
-        -webkit-transform: none;
-        transform: none;
-        opacity: 1;
-    }
-}
-
-@keyframes thankYou {
-    0% {
-        background-image: url(img/slider_man_img.png);
-    }
-    25% {
-        background-image: url(img/slider_man_img.png);
-    }
-    50% {
-        background-image: url(img/slider_ThankYou.png);
-    }
-    75% {
-        background-image: url(img/slider_ThankYou.png);
-    }
-    100% {
-        background-image: url(img/slider_man_img.png);
-    }
-}
 //блок предложений
 .offers_block {
     display: flex;
@@ -344,8 +295,6 @@ body {
     }
     .offers_img {
         width: 100%;
-        transform: scale(1) translate(0, 0);
-        transition: all 0.5s ease-in-out;
     }
     .offers__left {
         @media (min-width: 560px) and (max-width: 1200px) {
@@ -365,7 +314,6 @@ body {
         position: relative;
         display: block;
         text-decoration: none;
-        overflow: hidden;
         .offers__text_block {
             position: absolute;
             left: 0;
@@ -382,7 +330,6 @@ body {
             }
         }
     }
-
     .offers_block__offer:not(:last-child) {
         margin-bottom: 20px;
     }
@@ -394,10 +341,6 @@ body {
             font-size: 20px;
         }
     }
-}
-.offers_block__offer:hover .offers_img {
-    transform: scale(1.2) translate(0, 20px);
-    transition: all 0.5s ease-in-out;
 }
 //блок товаров
 .featured_items_container {
