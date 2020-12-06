@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.css"
+        integrity="sha512-f73UKwzP1Oia45eqHpHwzJtFLpvULbhVpEJfaWczo/ZCV5NWSnK4vLDnjTaMps28ocZ05RbI83k2RlQH92zy7A=="
+        crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container containerHeader">
+            <img src="img/b_letter_header.png" alt="logo" class="bLetter bletter_adaptive">
+            <p class="logo logo_adaptive">
+                bran<span class="logo_d">D</span>
+            </p>
+
+            <form class="header_form">
+                <button type="button" class="browse_btn">
+                    Browse<i class="fa fa-caret-down" aria-hidden="true"></i>
+                </button>
+                <div class="search_area">
+                    <input type="text" placeholder="Search for Item..." class="inputSearch">
+                    <button type="button" class="search_button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </div>
+            </form>
+            <div class="right_part">
+                <a href="cart.html" class="cart_link"><img src="img/basket_header.svg" alt="basket_img"></a>
+                <button type="button" class="account_btn">
+                    My Account<i class="fa fa-caret-down" aria-hidden="true"></i>
+                </button>
+            </div>
+
+        </div>
+
+    </header>
+    <nav class="main_menu">
+        <a href="index.html" class="main_menu_item">Home</a>
+        <a href="#" class="main_menu_item">Man</a>
+        <a href="#" class="main_menu_item">Women</a>
+        <a href="#" class="main_menu_item">Kids</a>
+        <a href="#" class="main_menu_item">Accoseriese</a>
+        <a href="#" class="main_menu_item">Featured</a>
+        <a href="#" class="main_menu_item">Hot Deals</a>
+    </nav>
+
+    <main>
+        <section class="new_arrivals">
+            <div class="container new_arrivals_container">
+                <h3 class="arrivals_text">New Arrivals</h3>
+                <p class="arrivals_path">Home / Men / <span class="arrivals_text_span">New Arrivals</span></p>
+            </div>
+        </section>
+        <div class="container shipping_and_payment__container_margins">
+            <section class="shipping_and_payment">
+                <div class="shipping_and_payment__list shipping_and_payment__list_collapsed">
+                    <h3
+                        class="shipping_and_payment__list__heading grid_template_heading shipping_and_payment__list__heading_collapsed">
+                        01. Shipping Adress</h3>
+                    <form class="shipping_and_payment__list__form form_regCheck">
+                        <h4 class="shipping_and_payment__list__form__headingFour ">Check as a guest or
+                            register</h4>
+                        <div
+                            class="shipping_and_payment__list__form__text shipping_and_payment__list__form__text_margin">
+                            Register with us for future convenience
+                        </div>
+                        <div
+                            class="shipping_and_payment__list__form__checkout__container shipping_and_payment__list__form__checkout__container_marginOne">
+                            <input type="radio" id="checkout_guest_input" name="checkout_register"
+                                class="shipping_and_payment__list__form__checkout shipping_and_payment__list__form__checkout_margin ">
+                            <label for="checkout_guest_input"
+                                class="shipping_and_payment__list__form__checkout__label">checkout as guest</label>
+
+                        </div>
+                        <div
+                            class="shipping_and_payment__list__form__checkout__container shipping_and_payment__list__form__checkout__container_marginTwo">
+                            <input type="radio" id="checkout_register_input" name="checkout_register"
+                                class="shipping_and_payment__list__form__checkout shipping_and_payment__list__form__checkout_margin"
+                                checked>
+                            <label for="checkout_register_input"
+                                class="shipping_and_payment__list__form__checkout__label">register</label>
+
+                        </div>
+
+                        <h5 class="shipping_and_payment__list__form__headingFour">register and save time!</h5>
+                        <div
+                            class="shipping_and_payment__list__form__text shipping_and_payment__list__form__text_margin">
+                            Register with us for future convenience
+                        </div>
+                        <div
+                            class="shipping_and_payment__list__form__text shipping_and_payment__list__form__text_margin">
+                        </div>
+                        <ul class="shipping_and_payment__list__form__order">
+                            <li class="shipping_and_payment__list__form__order_li">
+
+                                <a href="#"
+                                    class="shipping_and_payment__list__form__link shipping_and_payment__list__form__link_order"><i
+                                        class="fa fa-angle-double-right" aria-hidden="true"></i> Register
+                                    with us for
+                                    future
+                                    convenience</a>
+                            </li>
+                            <li class="shipping_and_payment__list__form__order_li">
+
+                                <a href="#"
+                                    class="shipping_and_payment__list__form__link shipping_and_payment__list__form__link_order">
+                                    <i class="fa fa-angle-double-right" aria-hidden="true"></i> Easy access to your
+                                    order
+                                    history
+                                    and status</a>
+                            </li>
+                        </ul>
+                        <button type="submit"
+                            class="shipping_and_payment__list__form__button shipping_and_payment__list__form__button_continue_murgin">
+                            Continue
+                        </button>
+                    </form>
+                    <form class="shipping_and_payment__list__form form_registered">
+                        <h4 class="shipping_and_payment__list__form__headingFour">Already registed?</h4>
+                        <div
+                            class="shipping_and_payment__list__form__text shipping_and_payment__list__form__text_margin">
+                            Please log in below
+                        </div>
+                        <h5
+                            class="shipping_and_payment__list__form__headingFive shipping_and_payment__list__form__headingFive_padUnic">
+                            EMAIL ADDRESS
+                            <span class="shipping_and_payment__list__form__text_span">*</span></h5>
+                        <input type="text" class="shipping_and_payment__list__form__reg__input">
+                        <h5 class="shipping_and_payment__list__form__headingFive">PASSWORD <span
+                                class="shipping_and_payment__list__form__text_span">*</span></h5>
+                        <input type="text" class="shipping_and_payment__list__form__reg__input">
+                        <div
+                            class="shipping_and_payment__list__form__text shipping_and_payment__list__form__text_margin shipping_and_payment__list__form__text_color">
+                            * Required Fileds
+                        </div>
+                        <button type="submit" class="shipping_and_payment__list__form__button">
+                            Log in
+                        </button>
+                        <a href="#"
+                            class="shipping_and_payment__list__form__link shipping_and_payment__list__form__link_fgPass">Forgot
+                            Password ?</a>
+                    </form>
+                </div>
+                <div class="shipping_and_payment__list">
+                    <h3 class="shipping_and_payment__list__heading">02. BILLING INFORMATION</h3>
+                </div>
+                <div class="shipping_and_payment__list">
+                    <h3 class="shipping_and_payment__list__heading">03. SHIPPING INFORMATION</h3>
+                </div>
+                <div class="shipping_and_payment__list">
+                    <h3 class="shipping_and_payment__list__heading">04. SHIPPING METHOD
+                    </h3>
+                </div>
+                <div class="shipping_and_payment__list">
+                    <h3 class="shipping_and_payment__list__heading">05. PAYMENT METHOD</h3>
+                </div>
+                <div class="shipping_and_payment__list">
+                    <h3 class="shipping_and_payment__list__heading">06. ORDER REVIEW</h3>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="subscribing_block">
+            <div class="container container_subscribe">
+                <div class="subscribing_block_left">
+                    <p class="subscribing_block_left_quote_1">
+                        <span class="qoute_img"><img src="img/subscribe_qoute_picture.png" alt="quote_img">
+                        </span>
+                        “Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                        a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”
+                    </p>
+                    <p class="subscribing_block_left_quote_2">
+                        Bin Burhan
+
+                    </p>
+                    <p class="subscribing_block_left_quote_3">
+                        Dhaka, Bd
+                    </p>
+                    <div class="subscribing_block_left_switch">
+                        <div class="subscribing_block_left_switch_element"></div>
+                        <div class="subscribing_block_left_switch_element"></div>
+                        <div class="subscribing_block_left_switch_element"></div>
+                    </div>
+                </div>
+                <div class="divider">
+                </div>
+                <div class="subscribing_block_right">
+                    <h3 class="subscribing_block_right_heading">Subscribe
+                    </h3>
+                    <p class="subscribing_block_right_text">FOR OUR NEWLETTER AND PROMOTION</p>
+                    <form class="subscribing_block_right_input_block">
+                        <input type="text" class="subscribing_block_right_input" placeholder="Enter Your Email"><button
+                            class="subscribing_block_right_button" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container footer_container">
+            <div class="footer_left_block">
+                <div class="footer_logo">
+                    <img src="img/b_letter_header.png" alt="logo" class="bLetter">
+                    <p class="logo">
+                        bran<span class="logo_d">D</span>
+                    </p>
+                </div>
+                <p class="footer_left_block_text">Objectively transition extensive data rather than cross functional
+                    solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits.
+                    Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.
+                </p>
+                <p class="footer_left_block_text">Efficiently plagiarize 24/365 action items and focused
+                    infomediaries.
+                    Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
+                </p>
+                <p class="footer_left_block_text">
+                    Objectively strategize seamless relationships via resource sucking testing procedures.
+                    Proactively
+                    cultivate next-generation results for value-added methodologies. Dynamically plagiarize unique
+                    methodologies after performance based methodologies.
+                </p>
+                <p class="footer_left_block_text">Monotonectally empower stand-alone mindshare
+                    rather than ubiquitous opportunities. Dynamically orchestrate resource sucking scenarios after
+                    alternative synergy.
+                </p>
+                <p class="footer_left_block_text">Compellingly envisioneer corporate methods of empowerment before
+                    standards compliant technologies.
+                    Objectively facilitate progressive.
+                </p>
+            </div>
+            <div class="footer_right_block">
+                <ul class="footer_right_block_order">
+                    <li class="footer_right_block_order_list">COMPANY</li>
+                    <li class="footer_right_block_order_list"><a href="index.html">Home</a></li>
+                    <li class="footer_right_block_order_list">Shop</li>
+                    <li class="footer_right_block_order_list">About</li>
+                    <li class="footer_right_block_order_list">How It Works</li>
+                    <li class="footer_right_block_order_list">Contact</li>
+                </ul>
+                <ul class="footer_right_block_order">
+                    <li class="footer_right_block_order_list">INFORMATION</li>
+                    <li class="footer_right_block_order_list">Tearms & Condition</li>
+                    <li class="footer_right_block_order_list">Privacy Policy</li>
+                    <li class="footer_right_block_order_list">How to Buy</li>
+                    <li class="footer_right_block_order_list">How to Sell</li>
+                    <li class="footer_right_block_order_list">Promotion</li>
+                </ul>
+                <ul class="footer_right_block_order">
+                    <li class="footer_right_block_order_list">SHOP CATEGORY</li>
+                    <li class="footer_right_block_order_list">Men</li>
+                    <li class="footer_right_block_order_list">Women</li>
+                    <li class="footer_right_block_order_list">Child</li>
+                    <li class="footer_right_block_order_list">Apparel</li>
+                    <li class="footer_right_block_order_list">Browse All</li>
+                </ul>
+
+            </div>
+
+        </div>
+        <div class="footer_contacts">
+            <div class="container footer_contacts_container">
+                <p class="footer_copywrites">© 2017 Brand All Rights Reserved.</p>
+                <div class="footer_social_icons">
+                    <div class="social_icons"><i class="fab fa-facebook" aria-hidden="true"></i></div>
+                    <div class="social_icons"><i class="fab fa-twitter" aria-hidden="true"></i></div>
+                    <div class="social_icons"><i class="fab fa-linkedin" aria-hidden="true"></i></div>
+                    <div class="social_icons"><i class="fab fa-pinterest-p" aria-hidden="true"></i></div>
+                    <div class="social_icons"><i class="fab fa-google-plus" aria-hidden="true"></i></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
